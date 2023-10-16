@@ -96,7 +96,7 @@ if __name__ == "__main__":
             start_epoch = 0
 
             best_val_dice = 0
-            best_epoch = 0
+            best_epoch = 0Q
 
             for epoch in range(start_epoch, CFG.epoch):
                 start_time = time.time()
